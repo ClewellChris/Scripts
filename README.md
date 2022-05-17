@@ -1,1 +1,1 @@
-This is a repo to house my Rails Blog Project. More updates coming soon. 
+Scripts I have created over the last year.  Will continue to improve and update these over time. 
