@@ -1,0 +1,2 @@
+# Add the Username of the users you want to create certificates for from the ACM.
+# Use the cert_manage.py script to list the certificates
