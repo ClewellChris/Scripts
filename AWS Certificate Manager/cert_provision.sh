@@ -10,8 +10,8 @@ echo "Hello Human"
 name=$(xargs < ~/Scripts/users.txt)
 
 for name in $name
-  do openssl rsa -in ~/PKI/key_bundles/$name.key -out ~/PKI/decryptkey/$name.key -passin file:/tmp/.cert.txt
-     openssl pkcs12 -password file:/tmp/.cert.txt -export -inkey ~/PKI/decryptkey/$name.key -in ~/PKI/key_bundles/$name.ca -in ~/PKI/key_bundles/$name.pem -out ~/PKI/p12/$name.p12 -name $name
+  do openssl rsa -in ~/PKI/key_bundles/$name.key -out ~/PKI/decryptkey/$name.key -passin file:"PASSWORD FILE PATH"
+     openssl pkcs12 -password file:"PASSWORD FILE PATH" -export -inkey ~/PKI/decryptkey/$name.key -in ~/PKI/key_bundles/$name.ca -in ~/PKI/key_bundles/$name.pem -out ~/PKI/p12/$name.p12 -name $name
 done
 
 echo "All Done With Certs"
