@@ -4,6 +4,7 @@
 <br>
 
 <h2 align="center">Setup<h2>
+
 <p>Using the below steps will create a workspace to manage and create .p12 certificates. You will also need to set up a password file to house your encrypt/decrypt key.  Once you have decided where to house this update the path in cert_provision.sh</p>
 
 1. mkdir ~/Cert_Manage
@@ -25,6 +26,7 @@
 9. mkdir ~/PKI/p12
 
 <h2 align="Center">Provisioning<h2>
+
 <p>Once you have created your workspace you can move on to creating certificates from the ACM. This will only be successful if you have set up the ACM and have appropriate AWS CLI keys or AWS SSO keys that point to the account where ACM is setup. If you have not done this stop here and head over to AWS to set up ACM</p>
 
 1. python3 cert_manage.py --listcerts 
