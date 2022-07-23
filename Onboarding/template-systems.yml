@@ -1,0 +1,25 @@
+systems:
+  - name: 
+    type: 
+    description: 
+    status: 
+    provider: 
+    vendor_class: 
+    asset_class: 
+    team_owner: 
+    system_owner: 
+    owner_cadence: 
+    cadence_notes_URL: 
+    backlog_URL: 
+    technical_documents_location: 
+    risk: 
+    risk_last_assessed: 
+    identity_provider: 
+    dag_enabled: Yes
+    mfa_enforced: Yes
+    log_destination: 
+    provisioner: 
+    provision_method: 
+    access:
+      - name:
+        roles: 
