@@ -3,7 +3,6 @@ import json
 from os import read
 from webbrowser import get
 from pip._vendor import requests
-import sys
 import sensitive as sensitive
 import difflib
 import os
